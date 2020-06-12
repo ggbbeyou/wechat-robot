@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"fmt"
-	"os"
-	"io"
+	"github.com/gin-gonic/gin"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/kanyways/wechat-robot/config"
-	"github.com/kanyways/wechat-robot/router"
 	"github.com/kanyways/wechat-robot/model"
+	"github.com/kanyways/wechat-robot/router"
+	"io"
+	"os"
 )
 
 func main() {
